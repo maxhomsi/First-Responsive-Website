@@ -1,0 +1,99 @@
+body{
+    background-color: white;
+}
+
+.container {
+    display: grid;
+     background-color: #1B1B1B;
+     color: white;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: 1fr 1fr;
+     grid-template-areas:
+      "header header header"
+      "section main article";}
+      
+ 
+   
+ 
+ h1 {  font-weight: normal;
+ padding: 100pt;}
+ 
+ h2 {  
+     font-weight: normal;
+     margin-top: 0;
+
+    }
+ 
+ header {
+   background-color: #2BCEC0;
+   grid-area: header;
+   text-align: center;
+   font-size: 20pt;
+ }
+ section {
+   grid-area: section;
+   margin: auto;
+   text-align: center;
+   width: 200px;
+
+ }
+ 
+ .divtitle {
+   height: 30px;
+   width: 200px;
+   background-color: #33A8DD;
+ margin: auto;
+ margin-top: -30pt;
+}
+ 
+ .divmain {
+ height: 30px;
+ width: 200px;
+   background-color: coral;
+ margin: auto;
+ margin-top: -30pt;}
+ 
+ .divarticle {
+    height: 30px;
+    width: 200px;
+   background-color: #2BCEC0;
+ margin: auto;
+ margin-top: -30pt;}
+ 
+ main {
+   grid-area: main;
+   text-align: center;
+    width: 200px;
+    margin: auto;
+
+ }
+ article {
+   grid-area: article;
+   text-align: center;
+    width: 200px;
+    margin: auto;
+    
+ }
+ 
+ p {
+     margin: auto;
+}
+ 
+ 
+ @media (max-width: 700px) {
+   .container {
+     display: grid;
+      background-color: white;
+     color: black;
+    grid-template-rows: 1fr ;
+    grid-template-areas:
+      "header"
+      "section"
+      "main"
+      "article"; }
+   header {
+       color: white;
+   background-color: #33A8DD;
+}
+ }
+ 
