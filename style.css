@@ -43,7 +43,8 @@ body{
    width: 200px;
    background-color: #33A8DD;
  margin: auto;
- margin-top: -30pt;
+ margin-top: auto;
+
 }
  
  .divmain {
@@ -51,14 +52,15 @@ body{
  width: 200px;
    background-color: coral;
  margin: auto;
- margin-top: -30pt;}
- 
+ margin-top: auto;
+ }
  .divarticle {
     height: 30px;
     width: 200px;
    background-color: #2BCEC0;
  margin: auto;
- margin-top: -30pt;}
+ margin-top: auto;
+}
  
  main {
    grid-area: main;
